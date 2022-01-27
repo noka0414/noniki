@@ -1,0 +1,611 @@
+@charset "utf-8";
+
+html {
+  font-size: 100%;
+  font-family: "Noto Sans JP";
+}
+img {
+  max-width: 100%;
+}
+body {
+  max-width: 100%;
+  margin: auto;
+  color: #3d3d3d;
+  background-color: #fcfcfc;
+}
+
+/*------------------------------------------
+共通部分 マウスオーバー時にボタンを白くする
+------------------------------------------*/
+.apply:hover {
+  filter: opacity(80%);
+}
+.sub:hover {
+  filter: opacity(80%);
+}
+
+/*------------------------------------------
+firstview
+------------------------------------------*/
+.firstview {
+  height: 1500px;
+  background-image: url(../img/firstview-background.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.campaign-ctr { /* キャンペーン概要 */
+  height: 640px;
+}
+.firstview-content {
+  display: inline-block;
+  width: 90%;
+}
+.s-firstview-content {
+  display: none;
+}
+
+.noniki-img {
+  position: absolute;
+  width: 20%;
+  top: 260px;
+  left: 180px;
+}
+
+.mainapply-ctr { /* キャンペーン 申し込みボタン */
+  height: 190px;
+  text-align: center;
+}
+.application-button {
+  display: block;
+  width: 35%;
+  margin: auto;
+}
+.s-application-button {
+  display: none;
+}
+
+.subscription-ctr { /* 定期コース概要 */
+  height: 310px;
+}
+.subscription-content {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+.s-subscription-content {
+  display: none;
+}
+
+.subapply-ctr { /* 定期コース 申し込みボタン */
+  height: 50px;
+  text-align: center;
+}
+.subscription-button {
+  display: block;
+  margin: auto;
+}
+.s-subscription-button {
+  display: none;
+}
+
+/*------------------------------------------
+concern
+------------------------------------------*/
+.concern-ctr {
+  height: 770px;
+  background-image: url(../img/concern-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 85px;
+}
+.concern-content {
+  display: inline-block;
+  width: 83%;
+}
+.s-concern-content {
+  display: none;
+}
+
+/*------------------------------------------
+description
+------------------------------------------*/
+.description-ctr {
+  height: 1320px;
+  background-image: url(../img/description-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-top: 110px;
+}
+
+.description-content {
+  display: inline-block;
+  width: 80%;
+}
+.s-description-content {
+  display: none;
+}
+
+/*------------------------------------------
+center
+------------------------------------------*/
+.center-ctr {
+  height: 3000px;
+  background-image: url(../img/center-background.png);
+  background-repeat: no-repeat;
+  background-size: 230%;
+  background-position: center;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.center-satisfaction { /* 満足度 */
+  display: inline-block;
+  width: 45%;
+}
+.s-center-satisfaction {
+  display: none;
+}
+
+.center-review { /* レビュー */
+  display: block;
+  width: 70%;
+  margin: 30px auto 70px auto;
+}
+.s-center-review {
+  display: none;
+}
+
+.center-campaign-ctr { /* キャンペーン概要 */
+  height: 370px;
+}
+.center-campaign {
+  display: inline-block;
+  width: 50%;
+}
+.s-center-campaign {
+  display: none;
+}
+
+.center-mainapply-ctr { /* キャンペーン 申し込みボタン */
+  height: 180px;
+  text-align: center;
+}
+.application-button2 {
+  display: block;
+  width: 35%;
+  margin: auto;
+}
+.s-application-button2 {
+  display: none;
+}
+
+.center-subscription-ctr { /* 定期コース概要 */
+  height: 310px;
+}
+.subscription-content2 {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+.s-subscription-content2 {
+  display: none;
+}
+
+.center-subapply-ctr { /* 定期コース 申し込みボタン */
+  height: 50px;
+  text-align: center;
+}
+.subscription-button2 {
+  display: block;
+  margin: auto;
+}
+.s-subscription-button2 {
+  display: none;
+}
+
+/*------------------------------------------
+question
+------------------------------------------*/
+.question-ctr {
+  height: 1100px;
+  background-color: #9EC7C9;
+  background-repeat: no-repeat;
+  background-size: 230%;
+  background-position: center;
+  text-align: center;
+  padding-top: 100px;
+}
+.question-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.question-content {
+  display: inline-block;
+  width: 65%;
+}
+.s-question-content {
+  display: none;
+}
+
+/*------------------------------------------
+last-action
+------------------------------------------*/
+.lastaction-ctr {
+  height: 1600px;
+  background-image: url(../img/lastaction-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.lastaction-campaign-ctr { /* キャンペーン概要 */
+  height: 710px;
+  position: relative;
+}
+.lastaction-content {
+  display: block;
+  position: absolute;
+  width: 40%;
+  margin: 100px 0 0 550px;
+}
+.s-lastaction-content {
+  display: none;
+}
+
+.noniki-img2 {
+  position: absolute;
+  width: 25%;
+  top: 70px;
+  left: 180px;
+}
+
+.lastaction-mainapply-ctr { /* キャンペーン 申し込みボタン */
+  height: 100px;
+  text-align: center;
+}
+.application-button3 {
+  display: block;
+  width: 35%;
+  margin: auto;
+}
+.s-application-button3 {
+  display: none;
+}
+
+.lastaction-subscription-ctr { /* 定期コース概要 */
+  height: 310px;
+  padding-top: 80px;
+}
+.subscription-content3 {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+.s-subscription-content3 {
+  display: none;
+}
+
+.lastaction-subapply-ctr {/* 定期コース 申し込みボタン */
+  height: 50px;
+  text-align: center;
+}
+.subscription-button3 {
+  display: block;
+  margin: auto;
+}
+.s-subscription-button3 {
+  display: none;
+}
+
+/*------------------------------------------
+footer
+------------------------------------------*/
+footer {
+  height: 80px;
+  text-align: center;
+}
+hr {
+  border: none;
+  border: 1px solid #adadad;
+}
+.copy {
+  margin-top: 25px;
+  font-size: 13px;
+  color: #6d6d6d;
+}
+
+
+/*====================================================
+SP
+====================================================*/
+
+@media screen and (max-width: 599px) {
+
+  body {
+    background-color: #fcfcfc;
+  }
+  img {
+    width: 100%;
+  }
+  .noniki-img, .noniki-img2 {
+    display: none;
+  }
+
+  /*----------------------------------------
+  firstview
+  ----------------------------------------*/
+  .firstview {
+    height: 1500px;
+    background-image: url(../img/s-firstview-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+  
+  .campaign-ctr { /* キャンペーン概要 */
+    height: 660px;
+    position: relative;
+  }
+  .firstview-content {
+    display: none;
+  }
+  .s-firstview-content {
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: -30px;
+  }
+
+  .mainapply-ctr { /* キャンペーン 申し込みボタン */
+    height: 140px;
+    text-align: center;
+  }
+  .application-button {
+    display: none;
+  }
+  .s-application-button {
+    display: block;
+    margin: auto;
+    width: 90%;
+  }
+
+  .subscription-ctr { /* 定期コース概要 */
+    height: 400px;
+  }
+  .subscription-content {
+    display: none;
+  }
+  .s-subscription-content {
+    display: inline-block;
+  }
+
+  .subapply-ctr { /* 定期コース 申し込みボタン */
+    height: 100px;
+    text-align: center;
+  }
+  .subscription-button {
+    display: none;
+  }
+  .s-subscription-button {
+    display: block;
+    margin: auto;
+    width: 90%;
+  }
+
+  /*----------------------------------------
+  concern
+  ----------------------------------------*/
+  .concern-ctr {
+    height: 1400px;
+  }
+  .concern-content {
+    display: none;
+  }
+  .s-concern-content {
+    display: inline-block;
+    width: 95%;
+  }
+
+  /*----------------------------------------
+  description
+  ----------------------------------------*/
+  .description-ctr {
+    height: 1050px;
+    background-image: url(../img/s-description-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+    .description-content {
+      display: none;
+    }
+    .s-description-content {
+      display: inline-block;
+      width: 100%;
+      margin-top: -65px;
+      margin-left: 15px;
+    }
+
+  /*----------------------------------------
+  center
+  ----------------------------------------*/
+  .center-ctr {
+    height: 2800px;
+    background-image: url(../img/s-center-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  .center-satisfaction { /* 満足度 */
+    display: none;
+  }
+  .s-center-satisfaction {
+    display: inline-block;
+    width: 90%;
+    margin-top: -40px;
+    margin-bottom: 20px;
+  }
+  
+  .center-review { /* 愛用者の声 */
+    display: none;
+  }
+  .s-center-review {
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 50px;
+  }
+
+  .center-campaign-ctr { /* キャンペーン概要 */
+    height: 350px;
+  }
+  .center-campaign {
+    display: none;
+  }
+  .s-center-campaign {
+    display: inline-block;
+    width: 95%;
+  }
+
+  .center-mainapply-ctr { /* キャンペーン 申し込みボタン */
+    height: 150px;
+    text-align: center;
+  }
+  .application-button2 {
+    display: none;
+  }
+  .s-application-button2 {
+    display: block;
+    margin: auto;
+    width: 90%;
+  }
+
+  .center-subscription-ctr { /* 定期コース概要 */
+    height: 370px;
+  }
+  .subscription-content2 {
+    display: none;
+  }
+  .s-subscription-content2 {
+    display: block;
+    margin: auto;
+    width: 95%;
+  }
+  
+  .center-subapply-ctr { /* 定期コース 申し込みボタン */
+    height: 100px;
+    text-align: center;
+  }
+  .subscription-button2 {
+    display: none;
+  }
+  .s-subscription-button2 {
+    display: block;
+    margin: auto;
+    width: 90%;
+  }
+
+  /*----------------------------------------
+  question
+  ----------------------------------------*/
+  .question-ctr {
+    height: 950px;
+    padding-top: 20px;
+  }
+  .question-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 35px;
+  }
+  .question-content {
+    display: none;
+  }
+  .s-question-content {
+    display: block;
+    width: 95%;
+    margin: auto;
+  }
+
+  /*----------------------------------------
+  lastaction
+  -----------------------------------------*/
+  .lastaction-ctr {
+    height: 1540px;
+    background-image: url(../img/s-lastaction-background.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+  }
+  
+  .lastaction-campaign-ctr { /* キャンペーン概要 */
+    height: 710px;
+  }
+  .lastaction-content {
+    display: none;
+  }
+  .s-lastaction-content {
+    display: block;
+    width: 95%;
+    margin-top: -50px;
+    margin-left: 15px;
+  }
+  
+  .lastaction-mainapply-ctr { /* キャンペーン 申し込みボタン */
+    height: 80px;
+    text-align: center;
+  }
+  .application-button3 {
+    display: none;
+  }
+  .s-application-button3 {
+    display: block;
+    margin: auto;
+    width: 90%;
+  }
+  
+  .lastaction-subscription-ctr { /* 定期コース概要 */
+    height: 400px;
+  }
+  .subscription-content3 {
+    display: none;
+  }
+  .s-subscription-content3 {
+    display: inline-block;
+  }
+  
+  .lastaction-subapply-ctr {/* 定期コース 申し込みボタン */
+    height: 100px;
+    text-align: center;
+  }
+  .subscription-button3 {
+    display: none;
+  }
+  .s-subscription-button3 {
+    display: block;
+    margin: auto;
+    width: 90%;
+  }
+
+  /*----------------------------------------
+  footer
+  ----------------------------------------*/
+  .copy {
+    font-size: 15px;
+  }
+
+}
+
+@media screen and (max-width: 1240px) {
+  
+}
