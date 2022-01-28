@@ -398,14 +398,15 @@ SP
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    padding: 43px 0 113px 0;
   }
     .description-content {
       display: none;
     }
     .s-description-content {
-      display: inline-block;
+      display: block;
       width: 100%;
-      margin-left: 15px;
+      margin: 0 -12px 0 12px;
     }
 
   /*----------------------------------------
